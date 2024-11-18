@@ -81,7 +81,7 @@ try:
             p_values[col] = p_value
         p_values_by_mine_type[mine_type] = p_values
 
-    st.write("### Correlations and P-values by Mine Type (rounded to 3 decimals)")
+    st.write("### Correlations and P-values by Mine Type")
 
     for mine_type, correlations in correlations_by_mine_type.items():
         st.write(f"#### {mine_type}:")
